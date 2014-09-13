@@ -11,13 +11,3 @@ background: url(../background.jpg) repeat;
 	background-color: #3E518B;
 	border-color: #3E518B;
 }
-
-#logo{
-	height: 50px;
-	float:left;
-	
-	}
-	
-#search-mid{
-	margin-top: 3px;
-}
