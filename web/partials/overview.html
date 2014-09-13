@@ -7,6 +7,7 @@
 	<input type="radio" id="element1" value=50 name="elements" ng-model="listOptions.limit"><label for="mc"> 50 Elemente anzeigen</label><br> 
 	<input type="radio" id="element2" value=100 name="elements" ng-model="listOptions.limit"><label for="mc"> 100 Elemte anzeigen</label><br> 
 	<input type="radio" id="element3" value=500 name="elements" ng-model="listOptions.limit"><label for="mc"> 500 Elemte anzeigen</label><br> 
+	<input type="radio" id="element4" value={{maxentries}} name="elements" ng-model="listOptions.limit"><label for="mc"> Alle Elemente anzeigen ({{maxentries}})</label><br>
 	
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </ul>
@@ -20,7 +21,7 @@
   <div ng-controller="listController">
 <h2>{{search.term}}</h2>
 	<table class="table-bordered table">
-    <tr><th><span class="hover" ng-click="changeOrder('relation')">Umsatz Krankenhaus<span ng-show="showRelation('down')" class="glyphicon glyphicon-arrow-down"></span><span ng-show="showRelation('up')" class="glyphicon glyphicon-arrow-up"></span></a></th><th><span class="hover"ng-click="changeOrder('name')">Krankheit <span ng-show="showName('up')" class="glyphicon glyphicon-arrow-up"></span><span ng-show="showName('down')" class="glyphicon glyphicon-arrow-down"></span></span></th></tr>
+    <tr><th><span class="hover" ng-click="changeOrder('relation')">Umsatz Krankenhaus<span ng-show="orderVar=='relation' && !reverse" class="glyphicon glyphicon-arrow-down"></span><span ng-show="orderVar=='relation' && reverse" class="glyphicon glyphicon-arrow-up"></span></a></th><th><span class="hover"ng-click="changeOrder('name')">Krankheit <span ng-show="orderVar=='name' && reverse" class="glyphicon glyphicon-arrow-up"></span><span ng-show="orderVar=='name' && !reverse" class="glyphicon glyphicon-arrow-down"></span></span></th></tr>
 <tr id="sort" ng-repeat="entry in entries | filter:search.term  |  orderBy : orderVar : reverse | limitTo: listOptions.limit">
 <td>{{entry.relation | number}} €</td>
 <td>{{entry.name}}</td>
