@@ -26,3 +26,7 @@ angular.module("app").config(function($routeProvider){
 			redirectTo: '/'
 		})
 });
+
+angular.module("app").controller("navigationController", function ($scope){
+	$scope.search={term:""}
+	})
