@@ -1,0 +1,9 @@
+div.leftnav{
+	background-color: #EEE;
+	border-radius:6px;
+	padding: 30px;
+}
+
+span.leftnav{
+	font: bold 15px Cambria, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}

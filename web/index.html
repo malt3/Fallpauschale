@@ -39,9 +39,9 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
-<li  ng-click="change(1)" ng-class="{active:identifier==1}"><a href="/#">Home</a></li>
-<li  ng-click="change(2)" ng-class="{active:identifier==2}"><a href="/#/overview" >Krankheiten</a> </li>
-<li  ng-click="change(3)" ng-class="{active:identifier==3}"><a href="/#/comparison">Vergleich</a> </li>
+<li  ng-click="change('')" ng-class="{active:identifier==''}"><a href="/#">Home</a></li>
+<li  ng-click="change('overview')" ng-class="{active:identifier=='overview'}"><a href="/#/overview" >Krankheiten</a> </li>
+<li  ng-click="change('comparison')" ng-class="{active:identifier=='comparison'}"><a href="/#/comparison">Vergleich</a> </li>
 </ul>
 
 
@@ -76,33 +76,7 @@
 <script src="js/controller/listController.js"></script>
 <!-- ============================================= -->
 
-<script>
-	/*function active(identifier){
-	alert(identifier);
-	switch(identifier) {
-	    case "1":
-		document.getElementById("homenav").className='active';
-		break;
-	    
-	    case "2":
-		document.getElementById("overviewnav").className='active';
-		break;
-	    
-	    case "3":
-		document.getElementById("compnav").className='active';
-		break;
-		
-	    default:
-		document.getElementById("homenav").className='active';
-		break;
-	} 
-	
-	
-	}
-	
 
-
-*/</script> 
 </body>
 </html>
 
