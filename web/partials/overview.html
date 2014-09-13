@@ -1,13 +1,17 @@
 <div class="jumbotron">
   <div ng-controller="listController">
-    <table class="table-bordered table">
-  <tr ng-repeat="entry in entries">
-  <td>{{entry.id}}</td>
-  <td>{{entry.name}}</td>
+<h2>{{search.term}}</h2>
+	<table class="table-bordered table">
+<tr ng-repeat="entry in entries | filter:search.term">
+<td>{{entry.relation | number}}</td>
+<td>{{entry.name}}</td>
 
 
-  </tr>
+</tr>
 
-  </table>
+
+
+
+</table>
   </div>
 </div>
