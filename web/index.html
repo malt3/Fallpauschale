@@ -39,9 +39,9 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
-<li class="active"><a href="/#">Home</a></li>
-<li><a href="/#/overview">Krankheiten</a> </li>
-<li><a href="/#/comparison">Vergleich</a> </li>
+<li class="active" id="homenav"><a href="/#">Home</a></li>
+<li><a href="/#/overview" id="illnav">Krankheiten</a> </li>
+<li><a href="/#/comparison" id="compnav">Vergleich</a> </li>
 </ul>
 
 
@@ -74,5 +74,32 @@
 <script src="js/controller/navigationController.js"></script>
 <script src="js/controller/compareController.js"></script>
 <script src="js/controller/listController.js"></script>
+<!-- ============================================= -->
+
+<script>
+	var url = document.URL;
+	var res = url.substring(end, -1);
+	
+	alert(res);
+
+</script> 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
