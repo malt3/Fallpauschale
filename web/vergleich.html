@@ -25,27 +25,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-   <link href="css/simple-sidebar.css" rel="stylesheet"> 
+    
     
     <link href="css/result.css" rel="stylesheet">
   </head>
 
   <body>
-  
-   <div id="wrapper">
-<!-- Sidebar -->
-<div id="sidebar-wrapper">
-<ul class="sidebar-nav">
-<li class="sidebar-brand">
-<h1>
-Ergebnisse Filtern
-</h1>
-	<li>
-	<span></span>
-	</li>
-
-</ul>
-</div>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -63,12 +48,12 @@ Ergebnisse Filtern
        <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
 <li><a href="index.html">Home</a></li>
-<li  class="active"><a href="#">Krankheiten</a> </li>
-<li><a href="vergleich.html">Vergleich</a> </li>
+<li><a href="#">Krankheiten</a> </li>
+<li  class="active"><a href="vergleich.html">Vergleich</a> </li>
 </ul>
   
   <ul class="nav navbar-nav navbar-right">
-<form  style="display:inline" name="search" action="search.html" method="get">
+<form  style="display:inline" name="search" action="result.html" method="get">
 <div class="input-group input-group-lg">
 <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
 <input type="text" class="form-control" name="s" placeholder="Krankheit">
@@ -85,7 +70,7 @@ Ergebnisse Filtern
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Results</h1>
+        <h1>Search</h1>
         <p>
         
        <table id="result-table">
