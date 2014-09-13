@@ -4,3 +4,5 @@ angular.module("app").controller("listController", function ($scope, $http) {
 		$scope.entries = data;
 	})
 });
+
+angular.module("app").controller("searchcontroller", function ($scope, $http) {
