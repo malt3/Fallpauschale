@@ -1,4 +1,5 @@
 .hover { cursor: pointer;
+color: #4C55AB;
 } 
 
 body{
@@ -27,26 +28,4 @@ background: url(../background.jpg) repeat;
 	hl{
 		margin-bottom: 20px;
 		}
-
-th{
-	background-color: #3E518B;
-	color: #FFFFFF;
-	padding: 15px;
-	margin: 1px;
-}
-
-td{
-	background-color: #BBC1D3;
-	padding: 15px;
-	margin: 1px;
-}
-
-
-
-#logo{
-	
-height:50px;
-float: left;
-}
-
-
+		
