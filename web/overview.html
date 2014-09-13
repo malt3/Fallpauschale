@@ -72,19 +72,9 @@
 
 
 <div ng-controller="listController">
-<table class="table-bordered table">
-<tr ng-repeat="entry in entries">
-<td>{{entry.id}}</td>
-<td>{{entry.name}}</td>
-
-
-</tr>
-
-
-
-
-</table>
-
+	<ul>
+		<li ng-repeat="entry in entries">{{entry.name}}</li>
+	</ul>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js"></script>
 <script src="app.js"></script>
