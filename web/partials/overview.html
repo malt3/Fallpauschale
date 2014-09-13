@@ -15,8 +15,8 @@
   <div ng-controller="listController">
 <h2>{{search.term}}</h2>
 	<table class="table-bordered table">
-    <tr><th>Umsatz Krankenhaus<span ng-click="changerelation()" class="glyphicon glyphicon-arrow-down"></span></th><th>Krankheit <span ng-click="changename()" class="glyphicon glyphicon-arrow-up"></span></th></tr>
-<tr id="sort" ng-repeat="entry in entries | filter:search.term  |  orderBy :'name':reverse">
+    <tr><th>Umsatz Krankenhaus<span ng-click="changeOrder('relation')" class="glyphicon glyphicon-arrow-down"></span></th><th>Krankheit <span ng-click="changeOrder('name')" class="glyphicon glyphicon-arrow-up"></span></th></tr>
+<tr id="sort" ng-repeat="entry in entries | filter:search.term  |  orderBy : orderVar : reverse">
 <td>{{entry.relation | number}} €</td>
 <td>{{entry.name}}</td>
 
