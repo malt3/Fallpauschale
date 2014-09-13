@@ -1,5 +1,4 @@
 .hover { cursor: pointer;
-color: #4C55AB;
 } 
 
 body{
@@ -15,3 +14,18 @@ background: url(../background.jpg) repeat;
 #mid{
 	margin-top: 3px;
 }
+
+th{
+	background-color: #3E518B;
+	color: #FFFFFF;
+	padding: 15px;
+	margin: 1px;
+}
+
+td{
+	background-color: #BBC1D3;
+	padding: 15px;
+	margin: 1px;
+}
+
+	
