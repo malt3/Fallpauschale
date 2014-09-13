@@ -8,5 +8,8 @@ angular.module("app").controller("navigationController", function ($scope, $loca
 		$scope.identifier= identifier;		
 	}
 	
+			$scope.searchbar=$location.path().substring(1);	
 	
+	
+
 })

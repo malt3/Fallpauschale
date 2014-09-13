@@ -45,9 +45,9 @@
 </ul>
 
 
-<ul class="nav navbar-nav navbar-right">
-<form  style="display:inline" name="search" action="search.html" method="get">
-<div class="input-group input-group-lg">
+<ul ng-show="identifier=='overview'" class="nav navbar-nav navbar-right">
+<form  style="display:inline" name="search" >
+<div class="input-group input-group-lg" id="mid">
 <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
 <input type="text" class="form-control" name="s" placeholder="Krankheit" ng-model="search.term">
 
