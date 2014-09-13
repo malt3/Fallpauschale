@@ -12,19 +12,19 @@
 
 	<div class="btn-group btn-group-justified btn-group-lg">
 		<div class="btn-group">
-		<button type="button" class="btn btn-info">R&uuml;cken</button>
+		<button type="button" class="btn btn-info" ng-click="search.term='r&uuml;cken'">R&uuml;cken</button>
 		 </div>
 		<div class="btn-group">
-		<button type="button" class="btn btn-info">H&uuml;fte</button>
+		<button type="button" class="btn btn-info" ng-click="search.term='h&uuml;ft'">H&uuml;fte</button>
 		 </div>
 		<div class="btn-group">
-		<button type="button" class="btn btn-info">Knie</button>
+		<button type="button" class="btn btn-info" ng-click="search.term='knie'">Knie</button>
 		 </div>
 		<div class="btn-group">
-		<button type="button" class="btn btn-info">Herz</button>
+		<button type="button" class="btn btn-info" ng-click="search.term='herz'">Herz</button>
 		 </div>
 		<div class="btn-group">
-		<button type="button" class="btn btn-info">Neugeborenes</button>
+		<button type="button" class="btn btn-info" ng-click="search.term='neugeborenes'">Neugeborenes</button>
 		 </div>
 	</div>
 	</div>
@@ -41,16 +41,13 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 	</div>
 	
 
-	<div class="right col-xs-12 col-md-6">
+	<div class="right col-xs-12 col-md-6" ng-controller="elementController">
 	
-				<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+	<ng-include src="'partials/table.html'"></ng-include>
+	
+	
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-		</p>
-		</div>
+	</div>
 		
 		</div>
 		
