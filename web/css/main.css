@@ -15,3 +15,16 @@ background: url(../background.jpg) repeat;
 #mid{
 	margin-top: 3px;
 }
+
+#bt1, #bt2, #bt3, #bt4, #bt5{
+		font-size: 20px;
+		width: 200px;
+	}
+	
+#table {
+	padding-top: 20px;
+	}
+	
+	hl{
+		margin-bottom: 20px;
+		}
