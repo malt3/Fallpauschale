@@ -5,3 +5,9 @@ color: #4C55AB;
 body{
 background: url(../background.jpg) repeat;
 }
+
+
+.btn-primary{
+	background-color: #3E518B;
+	border-color: #3E518B;
+}
