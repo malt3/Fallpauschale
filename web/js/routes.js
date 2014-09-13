@@ -8,7 +8,7 @@ angular.module("app").config(function($routeProvider){
 			controller: 'listController'
 		}).
 		when("/comparison", {
-			templateUrl: 'partials/comparison',
+			templateUrl: 'partials/comparison.html',
 			controller: 'compareController'
 		}).
 		otherwise({
