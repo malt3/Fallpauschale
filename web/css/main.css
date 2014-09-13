@@ -1,3 +1,7 @@
 .hover { cursor: pointer;
 color: #4C55AB;
 } 
+
+body{
+background: url(../background.jpg) repeat;
+}
