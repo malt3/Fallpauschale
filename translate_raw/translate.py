@@ -1,4 +1,6 @@
 import csv
+
+
 with open('../raw/Fallpauschalenkatalog 2014_20140120.csv', 'rb') as f:
 	reader = csv.reader(f,delimiter=';')
 	result = []
@@ -6,6 +8,4 @@ with open('../raw/Fallpauschalenkatalog 2014_20140120.csv', 'rb') as f:
 		identifier = row[0]
 		name = row[2]
 		relation = row[3]
-		result.append([identifier,name,relation])
-
-print result
+		if len(identifier) == 4:
