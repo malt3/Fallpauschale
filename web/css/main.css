@@ -1,3 +1,7 @@
 .hover { cursor: pointer;
 color: #4C55AB;
 } 
+
+body{
+background: url(http://bgrepeat.com/128/128-193.jpg) repeat;
+}
