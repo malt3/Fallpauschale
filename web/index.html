@@ -23,7 +23,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="navigationController">
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <div class="container">
@@ -48,7 +48,8 @@
 <form  style="display:inline" name="search" action="search.html" method="get">
 <div class="input-group input-group-lg">
 <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-<input type="text" class="form-control" name="s" placeholder="Krankheit">
+<input type="text" class="form-control" name="s" placeholder="Krankheit" ng-model="search.term">
+
 </div>
 </form>
 </ul> 
