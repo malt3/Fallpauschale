@@ -5,7 +5,8 @@ angular.module("app").controller("navigationController", function ($scope, $loca
 	
 	
 	$scope.change=function(identifier){
-		$scope.identifier= identifier;		
+		$scope.identifier= identifier;	
+		$scope.search.term='';
 	}
 	
 			$scope.searchbar=$location.path().substring(1);	

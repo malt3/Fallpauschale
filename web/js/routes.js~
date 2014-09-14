@@ -1,7 +1,7 @@
 angular.module("app").config(function($routeProvider){
 	$routeProvider.
 		when("/", {
-			templateUrl: 'partials/landing.html',
+			templateUrl: 'partials/landing.html'
 			controller: 'landingController'
 		}).
 		when("/overview", {

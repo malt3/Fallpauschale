@@ -1,5 +1,5 @@
 .hover { cursor: pointer;
-color: #4C55AB;
+color: white;
 } 
 
 body{
@@ -49,3 +49,32 @@ background: url(../background.jpg) repeat;
       width: 100px;
       margin: 5px 0;
 			}
+      
+      
+      .float-right{
+      float: right;
+      padding-bottom: 50px;
+      }
+      
+      
+      button.btn-info{
+          font-weight: 700;
+          font-size: 20px;
+      }
+      
+      
+      
+    th{
+      background-color:  #4896D6;
+    
+      
+    }
+    
+    td{
+        background-color: #C0C7CC;
+     
+    }
+    
+    td.left{
+     text-align: right;
+    }
