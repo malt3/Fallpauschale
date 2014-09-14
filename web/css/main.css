@@ -66,11 +66,13 @@ background: url(../background.jpg) repeat;
       
     th{
       background-color:  #4896D6;
+    
       
     }
     
     td{
-        background-color: #B4C5D4;
+        background-color: #C0C7CC;
+     
     }
     
     td.left{
