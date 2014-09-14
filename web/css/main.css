@@ -27,7 +27,12 @@ background: url(../background.jpg) repeat;
 	
 	hl{
 		margin-bottom: 20px;
+    
 		}
+    
+    h1#h1{
+    font-family: 'Coming Soon', cursive;
+    }
     
     
     
