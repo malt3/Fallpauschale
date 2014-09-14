@@ -91,4 +91,11 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
 	div.jumbotron{
 		background-color: rgba(238,238,238,0.8);
 		}
+    
+    
+    
+    
+    span.bold{
+        font-style: bold;
+    }
 		
