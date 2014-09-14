@@ -7,10 +7,6 @@ angular.module("app").config(function($routeProvider){
 			templateUrl: 'partials/overview.html',
 			controller: 'listController'
 		}).
-		when("/comparison", {
-			templateUrl: 'partials/comparison.html',
-			controller: 'compController'
-		}).
 		otherwise({
 			redirectTo: '/'
 		})

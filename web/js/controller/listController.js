@@ -1,5 +1,6 @@
 angular.module("app").controller("listController", function ($scope, $http) {
 
+	
 
 	$scope.orderVar = 'name';
 	$scope.reverse = false;
