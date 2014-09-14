@@ -45,15 +45,13 @@
 </ul>
 
 
-<ul ng-show="identifier=='overview'" class="nav navbar-nav navbar-right">
-<form  style="display:inline" name="search" >
-<div class="input-group input-group-lg" id="mid">
-<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+<form class="navbar-form navbar-right" ng-show="identifier=='overview'" name="search" >
+<div class="form-group" id="mid">
 <input type="text" class="form-control" name="s" placeholder="Krankheit" ng-model="search.term">
 
 </div>
+<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 </form>
-</ul> 
 
 </div><!--/.nav-collapse -->
 </div>
