@@ -3,7 +3,7 @@ color: white;
 } 
 
 body{
-background: url(../background.jpg) repeat;
+background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operating_room_anesthetic_station.jpg/2048px-Operating_room_anesthetic_station.jpg?uselang=de') fixed;
 }
 
 
@@ -87,3 +87,8 @@ background: url(../background.jpg) repeat;
     td.left{
      text-align: right;
     }
+	
+	div.jumbotron{
+		background-color: rgba(238,238,238,0.8);
+		}
+		
