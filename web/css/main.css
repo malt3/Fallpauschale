@@ -36,3 +36,16 @@ background: url(../background.jpg) repeat;
         height: 50px;
     }
 		
+
+
+
+    input[type=radio].css-checkbox {
+						float: left;
+             margin: 10px 10px 10px 0;
+
+						}
+
+						label.css-label {
+      width: 100px;
+      margin: 5px 0;
+			}
