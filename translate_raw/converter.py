@@ -9,6 +9,7 @@ with open('../raw/Fallpauschalenkatalog 2014_20140120.csv', 'rb') as input_file:
 			identifier = row[0]
 			name = row[2].replace("\r", "")
 			relation = row[3]
+			dauer = row[5]
 			if len(identifier) == 4:
 				output_file.write('{"name":"%s","relation":"%s"},'%(name,relation.replace(',','.')))
 		output_file.write("]")

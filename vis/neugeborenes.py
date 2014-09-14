@@ -2,7 +2,7 @@ import numpy as np
 from bokeh.plotting import *
 import csv
 
-name = "Knie"
+name = "Neugeborenes"
 relation = []
 bezeichnung = []
 rate = 3156
@@ -35,11 +35,11 @@ factors = label
 """	
 Chart stuff
 """
-output_file("../web/vis/knie.html", title="visualisierung")
+output_file("../web/vis/neugeborenes.html", title="visualisierung")
 
 hold()
 
-segment(x0, factors, x, factors, y_range=factors, x_range=[0,20000],
+segment(x0, factors, x, factors, y_range=factors, x_range=[0,150000],
         line_width=2, line_color="red", tools="resize,previewsave", title=name)
 circle(x, factors, size=15, fill_color="white", line_color="red", line_width=3, Name="")
 
