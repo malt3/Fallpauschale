@@ -8,6 +8,10 @@ angular.module("app").config(function($routeProvider){
 			templateUrl: 'partials/overview.html',
 			controller: 'listController'
 		}).
+		when("/info", {
+			templateUrl: 'partials/info.html',
+			controller: 'listController'
+      }).
 		otherwise({
 			redirectTo: '/'
 		})
