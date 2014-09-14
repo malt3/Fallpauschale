@@ -3,7 +3,7 @@
 	<table class="table-bordered table">
     <tr><th><span class="hover" ng-click="changeOrder('relation')">Umsatz Krankenhaus<span ng-show="orderVar == 'relation' && !reverse" class="glyphicon glyphicon-arrow-down"></span><span ng-show="orderVar == 'relation' && reverse" class="glyphicon glyphicon-arrow-up"></span></a></th><th><span class="hover"ng-click="changeOrder('name')">Krankheit <span ng-show="orderVar == 'name' && reverse" class="glyphicon glyphicon-arrow-up"></span><span ng-show="orderVar == 'name' && !reverse" class="glyphicon glyphicon-arrow-down"></span></span></th></tr>
 <tr id="sort" ng-repeat="entry in entries | filter:search.term  |  orderBy : orderVar : reverse | limitTo: listOptions.limit">
-<td>{{entry.relation | number}} €</td>
+<td class="left">{{entry.relation | number}} €</td>
 <td>{{entry.name}}</td>
 
 
