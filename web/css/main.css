@@ -28,4 +28,11 @@ background: url(../background.jpg) repeat;
 	hl{
 		margin-bottom: 20px;
 		}
+    
+    
+    
+    #logo{
+        float: left;
+        height: 60px;
+    }
 		
