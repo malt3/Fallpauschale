@@ -1,8 +1,9 @@
 div.leftnav{
-	background-color: #EEE;
+  background-color: rgba(238,238,238,0.8);
 	border-radius:6px;
 	padding: 30px;
   margin-bottom: 50px !important;
+  
 }
 
 
@@ -11,4 +12,5 @@ div.leftnav{
 span.leftnav{
 	font: bold 15px Cambria, "Helvetica Neue",Helvetica,Arial,sans-serif;
    margin-bottom: 50px;   
+ 
 }
