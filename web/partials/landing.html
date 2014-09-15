@@ -1,35 +1,28 @@
 <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-     
-      <div class="head" >
-      
-      
-      <h1 id="h1">Wat ham se' denn?</h1>
-	<br>
-
-      
-
-
-	<div class="btn-group btn-group-justified btn-group-lg">
-		<div class="btn-group">
-		<button type="button" class="btn btn-info" ng-click="search.term='r&uuml;cken'">R&uuml;cken</button>
-		 </div>
-		<div class="btn-group">
-		<button type="button" class="btn btn-info" ng-click="search.term='schulter'">Schulter</button>
-		 </div>
-		<div class="btn-group">
-		<button type="button" class="btn btn-info" ng-click="search.term='knie'">Knie</button>
-		 </div>
-		<div class="btn-group">
-		<button type="button" class="btn btn-info" ng-click="search.term='herz'">Herz</button>
-		 </div>
-		<div class="btn-group">
-		<button type="button" class="btn btn-info" ng-click="search.term='neugeborenes'">Neugeborenes</button>
-		 </div>
-	</div>
+<div class="jumbotron">
+	<div class="head" >
+		<h1 id="h1">Wat ham se' denn?</h1>
+		<br>
+		<div class="btn-group btn-group-justified btn-group-lg">
+			<div class="btn-group">
+				<button type="button" class="btn btn-info" ng-click="search.term='rücken'">Rücken</button>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-info" ng-click="search.term='schulter'">Schulter</button>
+			 </div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-info" ng-click="search.term='knie'">Knie</button>
+			 </div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-info" ng-click="search.term='herz'">Herz</button>
+			 </div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-info" ng-click="search.term='neugeborenes'">Neugeborenes</button>
+			</div>
+		</div>
 	</div>
   
-    <!-- <h2 class="float-right" id="h2">Und was verdienen die?</h2> <br><br><br> -->
+    <h2 class="float-right" id="h2">Und was verdienen die?</h2>
 	
 	<div class="row" ng-show="search.term">
 		<div class="visualisierung" id="div">
@@ -39,10 +32,5 @@
 		<div ng-controller="elementController">	
 			<ng-include src="'partials/table.html'"></ng-include>
 		</div>
-		
 	</div>
-		
-  
-
-
 </div>
