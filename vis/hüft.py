@@ -2,7 +2,7 @@ import numpy as np
 from bokeh.plotting import *
 import csv
 
-name = "Hüft"
+name = "Schulter"
 relation = []
 bezeichnung = []
 rate = 3156
@@ -35,7 +35,7 @@ factors = label
 """	
 Chart stuff
 """
-output_file("hüft.html", title="visualisierung")
+output_file("schulter.html", title="visualisierung")
 
 hold()
 

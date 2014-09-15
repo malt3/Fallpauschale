@@ -39,8 +39,8 @@ output_file("../web/vis/neugeborenes.html", title="visualisierung")
 
 hold()
 
-segment(x0, factors, x, factors, y_range=factors, x_range=[0,150000],
-        line_width=2, line_color="red", tools="resize,previewsave", title=name)
+segment(x0, factors, x, factors, y_range=factors, x_range=[0,relation[-1]+relation[-1]/4],
+        line_width=2, line_color="red", tools="resize,previewsave", title="", plot_height=150, plot_width=1000)
 circle(x, factors, size=15, fill_color="white", line_color="red", line_width=3, Name="")
 
 figure()
