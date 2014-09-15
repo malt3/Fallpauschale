@@ -5,7 +5,7 @@ import csv
 name = "Schulter"
 relation = []
 bezeichnung = []
-rate = 3156
+rate = 3156 #in EURO
 
 with open('../raw/Fallpauschalenkatalog 2014_20140120.csv', 'rb') as input_file:
 	reader = csv.reader(input_file,delimiter=';')	
@@ -29,7 +29,7 @@ Specify the chart values
 values = [relation[0], average, relation[-1]]
 x = values
 x0 = [0,0,0]
-label = ["min","avg","max"]
+label = ["Minimum","Durchschnitt","Maximum"]
 factors = label
 
 """	

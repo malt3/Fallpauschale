@@ -29,7 +29,7 @@ Specify the chart values
 values = [relation[0], average, relation[-1]]
 x = values
 x0 = [0,0,0]
-label = ["min","avg","max"]
+label = ["Minimum","Durchschnitt","Maximum"]
 factors = label
 
 """	
