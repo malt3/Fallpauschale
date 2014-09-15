@@ -96,7 +96,8 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
     
     
     span.bold{
-        font-style: bold;
+        font-style: bold,
+		font-size:20px;
     }
 	
 	div.visualisierung {		
@@ -110,3 +111,4 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
 	.question{ 
 	margin-bottom: 2em; 
 	}
+	
