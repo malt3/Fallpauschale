@@ -42,12 +42,11 @@
 				<li  ng-click="change('overview')" ng-class="{active:identifier=='overview'}"><a href="#/overview" >Behandlungen</a> </li>
 				<li  ng-click="change('info')" ng-class="{active:identifier=='info'}"><a href="#/info" >Info</a> </li>
 			</ul>
-
 			<form class="navbar-form navbar-right" ng-show="identifier=='overview'" name="search" >
 				<div class="form-group" id="mid">
 					<input type="text" class="form-control" name="s" placeholder="Krankheit" ng-model="search.term">
+					<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 				</div>
-				<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 			</form>
 		</div><!--/.nav-collapse -->
 	</div>
