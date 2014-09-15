@@ -62,6 +62,7 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
       
       .float-right{
       float: right;
+	  margin-bottom-bottom: 2em;
       }
       
       
@@ -97,9 +98,14 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
     span.bold{
         font-style: bold;
     }
-div.visualisierung {		
-width: 1000px;
-height: 300px;
-padding-top : 50px;
-padding-bottom : 50px;
+	
+	div.visualisierung {		
+		width: 1000px;
+		height: 300px;
+		padding-top : 50px;
+		padding-bottom : 50px;
+	}
+	
+	.question{ 
+	margin-bottom: 2em; 
 	}
