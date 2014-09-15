@@ -62,13 +62,13 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
       
       .float-right{
       float: right;
-	  margin-bottom-bottom: 2em;
       }
       
       
       button.btn-info{
           font-weight: 700;
-          font-size: 20px;
+          font-size: 100%;
+		  overflow: hidden
       }
       
       
@@ -100,10 +100,11 @@ background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Operat
     }
 	
 	div.visualisierung {		
-		width: 1000px;
-		height: 300px;
+		width: 100%;
+		height: auto;
 		padding-top : 50px;
 		padding-bottom : 50px;
+		overflow-x:auto;
 	}
 	
 	.question{ 
